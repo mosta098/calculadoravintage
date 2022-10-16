@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <body>
+
+    <ion-grid id="Visor">
+      <ion-row>
+        <div id="Digit" name="lcds"></div>
+      </ion-row>
+
+      <ion-row>
+        <div id="Operacio"></div>
+      </ion-row>
+      <ion-row>
+        <ion-text id="Resultat"></ion-text>
+      </ion-row>
+
+
+    </ion-grid>
+    <div type="text" name="lcdform">
+
+    </div>
+
+    <div id="container">
+
+      <div id="Teclat">
+
+        <button (click)="buttonL()" class="difcolor">L</button>
+        <button (click)="buttonQ()" class="difcolor">Q</button>
+        <button (click)="buttonfactorial()" class="difcolor">!</button>
+        <button (click)="buttondivi()" class="difcolor">/</button>
+        <button (click)="buttonclean()" id="clear">C</button>
+        <button (click)="button7()">7</button>
+        <button (click)="button8()">8</button>
+        <button (click)="button9()">9</button>
+        <button (click)="buttonmulti()">*</button>
+        <button (click)="buttonM()" class="difcolor">M</button>
+        <button (click)="button4()">4</button>
+        <button (click)="button5()">5</button>
+        <button (click)="button6()">6</button>
+        <button (click)="buttonsuma()">+</button>
+        <button (click)="buttonV()" class="difcolor">V</button>
+
+        <button (click)="button1()">1</button>
+        <button (click)="button2()">2</button>
+        <button (click)="button3()">3</button>
+        <button (click)="buttonresta()">-</button>
+        <button (click)="buttonigual()" class="difcolor">=</button>
+        <button (click)="button0()">0</button>
+        <button (click)="dot()">.</button>
+
+      </div>
+
+    </div>
+  </body>
+
+</ion-content>
